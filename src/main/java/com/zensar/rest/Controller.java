@@ -151,7 +151,7 @@ public class Controller {
 							rgbColor = env.getProperty(basicColor.toUpperCase());
 						} else {
 							System.out.println("**** Not able to fine color : " + basicColor
-									+ " in Java Color class and in environemnt properties , please define this color in application.properties");
+									+ " in Java Color class and in environemnt properties, please define this color in application.properties");
 						}
 
 					}
